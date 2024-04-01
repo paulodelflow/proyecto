@@ -1,0 +1,44 @@
+{
+    "Drones": {
+        "lider": {
+            "nombre": "Paulo Escobar",
+            "edad": 24,
+            "carrera": "Ingenieria en Informática",
+            "imagen": "https://imgur.com/Nsgf66J.png"
+        }
+    },
+    "Movil": {
+        "lider": {
+            "nombre": "Ariel Silva",
+            "edad": 22,
+            "carrera": "Ingenieria en Informática",
+            "imagen": "https://imgur.com/119eFWr.png"
+        }
+    },
+    "3D": {
+        "lider": {
+            "nombre": "Nicolas Fritz",
+            "edad": 24,
+            "carrera": "Ingenieria en Informática",
+            "imagen": "https://imgur.com/Yaquw2Z.png"
+        }
+    },
+    "VR": {
+
+    },
+    "Web": {
+
+    },
+    "IOT": {
+
+    },
+    "IA": {
+
+    },
+    "Robotica": {
+
+    },
+    "Juegos": {
+
+    }
+}
