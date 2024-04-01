@@ -10,4 +10,14 @@ export const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full',
   },
+  {
+    path: 'mapa',
+    loadComponent: () => import('./views/mapa/mapa.page').then( m => m.MapaPage)
+  },
+  {
+    path: 'inscripcion',
+    loadComponent: () => import('./views//inscripcion/inscripcion.page').then( m => m.InscripcionPage)
+  },
+
+
 ];
