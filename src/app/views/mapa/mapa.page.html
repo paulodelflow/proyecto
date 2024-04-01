@@ -1,0 +1,13 @@
+<ion-content [fullscreen]="true" class="flex justify-center items-center">
+  <div class="container mx-auto">
+    <h1 class="text-4xl font-bold text-center mt-20 mb-auto">Escanear QR</h1>
+    <h2 class="text-4xl font-bold text-center mt-auto mb-9">Del mapa Interactivo</h2>
+    <div class="qr-container flex flex-col items-center justify-center">
+      <img src="assets/CoRTEo_qrcode.png" alt="QR Mapa" class="w-64 h-64 mb-8">
+      <div class="arrow-back flex items-center" (click)="goBack()">
+        <ion-icon name="arrow-back" class="text-|-500 mr-2"></ion-icon>
+        <p class="text-gray-500">Volver</p>
+      </div>
+    </div>
+  </div>
+</ion-content>
