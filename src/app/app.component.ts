@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { IonApp, IonRouterOutlet } from '@ionic/angular/standalone';
+import { DataService } from './services/data.service';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +8,10 @@ import { IonApp, IonRouterOutlet } from '@ionic/angular/standalone';
   standalone: true,
   imports: [IonApp, IonRouterOutlet],
 })
-export class AppComponent {
-  constructor() {}
+export class AppComponent implements OnInit {
+  constructor(private _dataSrv: DataService) {}
+
+  async ngOnInit() {
+    await this._dataSrv.getData();
+  }
 }

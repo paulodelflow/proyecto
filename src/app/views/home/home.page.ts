@@ -11,6 +11,7 @@ import { Router } from '@angular/router';
 })
 
 export class HomePage {
+<<<<<<< Updated upstream
   constructor(private router: Router) {}
 
   opcionSeleccionada(opcion: string) {
@@ -30,5 +31,13 @@ export class HomePage {
       default:
         break;
     }
+=======
+  @Output() opcionSeleccionada = new EventEmitter<number>();
+
+  constructor() {}
+
+  emitirOpcionSeleccionada(opcion: number) {
+    this.opcionSeleccionada.emit(opcion);
+>>>>>>> Stashed changes
   }
 }
