@@ -9,7 +9,8 @@ export const routes: Routes = [
     path: '',
     redirectTo: 'home',
     pathMatch: 'full',
-  },  {
+  },
+  {
     path: 'inscripcion',
     loadComponent: () => import('./views/inscripcion/inscripcion.page').then( m => m.InscripcionPage)
   },
@@ -30,8 +31,8 @@ export const routes: Routes = [
     loadComponent: () => import('./views/mapa/mapa.page').then( m => m.MapaPage)
   },
   {
-    path: 'lider',
-    loadComponent: () => import('./views/lider/lider.page').then( m => m.LiderPage)
+    path: 'inscripcion',
+    loadComponent: () => import('./views//inscripcion/inscripcion.page').then( m => m.InscripcionPage)
   },
   {
     path: 'evento',

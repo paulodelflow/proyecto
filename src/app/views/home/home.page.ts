@@ -1,5 +1,6 @@
 import { Component, Output, EventEmitter  } from '@angular/core';
 import { IonContent } from '@ionic/angular/standalone';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -10,12 +11,24 @@ import { IonContent } from '@ionic/angular/standalone';
 })
 
 export class HomePage {
-  constructor() {}
-  hola = true;
-  array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-  @Output() opcionSeleccionada = new EventEmitter<number>();
+  constructor(private router: Router) {}
 
-  emitirOpcionSeleccionada(opcion: number) {
-    this.opcionSeleccionada.emit(opcion);
+  opcionSeleccionada(opcion: string) {
+    switch (opcion) {
+      case 'mapa':
+        this.router.navigate(['/mapa']); // Ruta a la página 'Mapa'
+        break;
+      case 'inscripcion':
+        this.router.navigate(['/inscripcion']); // Ruta a la página 'Inscripcion'
+        break;
+      case 'eventos':
+        this.router.navigate(['/eventos']); // Ruta a la página 'Eventos'
+        break;
+      case 'proyectos':
+        this.router.navigate(['/proyectos']); // Ruta a la página 'Proyectos'
+        break;
+      default:
+        break;
+    }
   }
 }
