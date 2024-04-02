@@ -11,33 +11,11 @@ import { Router } from '@angular/router';
 })
 
 export class HomePage {
-<<<<<<< Updated upstream
-  constructor(private router: Router) {}
-
-  opcionSeleccionada(opcion: string) {
-    switch (opcion) {
-      case 'mapa':
-        this.router.navigate(['/mapa']); // Ruta a la página 'Mapa'
-        break;
-      case 'inscripcion':
-        this.router.navigate(['/inscripcion']); // Ruta a la página 'Inscripcion'
-        break;
-      case 'eventos':
-        this.router.navigate(['/eventos']); // Ruta a la página 'Eventos'
-        break;
-      case 'proyectos':
-        this.router.navigate(['/proyectos']); // Ruta a la página 'Proyectos'
-        break;
-      default:
-        break;
-    }
-=======
   @Output() opcionSeleccionada = new EventEmitter<number>();
 
   constructor() {}
 
   emitirOpcionSeleccionada(opcion: number) {
     this.opcionSeleccionada.emit(opcion);
->>>>>>> Stashed changes
   }
 }
