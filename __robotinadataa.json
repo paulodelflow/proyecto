@@ -2,43 +2,151 @@
     "Drones": {
         "lider": {
             "nombre": "Paulo Escobar",
-            "edad": 24,
             "carrera": "Ingenieria en Informática",
             "imagen": "https://imgur.com/Nsgf66J.png"
+        },
+        "imagen": "",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "objetivos": [],
+        "horario": {
+            "dia": "Miércoles",
+            "horaInicio": "13:01",
+            "horaFin": "14:20"
         }
     },
     "Movil": {
         "lider": {
             "nombre": "Ariel Silva",
-            "edad": 22,
             "carrera": "Ingenieria en Informática",
             "imagen": "https://imgur.com/119eFWr.png"
+        },
+        "imagen": "",
+        "descripcion": "Las Aplicaciones Móviles son parte de nuestra vida diaria, por lo que en este taller aprenderás todo lo relacionado al desarrollo de aplicaciones móviles híbridas. Desde el UI y UX hasta la programación de la aplicación en sí, junto con la implementación de servicios en la nube o servidores locales.",
+        "objetivos": [],
+        "horario": {
+            "dia": "Lunes",
+            "horaInicio": "15:11",
+            "horaFin": "16:40"
         }
     },
     "3D": {
         "lider": {
             "nombre": "Nicolas Fritz",
-            "edad": 24,
             "carrera": "Ingenieria en Informática",
             "imagen": "https://imgur.com/Yaquw2Z.png"
+        },
+        "imagen": "",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "objetivos": [],
+        "horario": {
+            "dia": "Viernes",
+            "horaInicio": "14:30",
+            "horaFin": "16:00"
         }
     },
     "VR": {
-
+        "lider": {
+            "nombre": "Lucas Opazo",
+            "carrera": "Informática en Biomédica",
+            "imagen": "https://imgur.com/AK2WFoh.png"
+        },
+        "imagen": "",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "objetivos": [],
+        "horario": {
+            "dia": "Martes",
+            "horaInicio": "13:41",
+            "horaFin": "15:10"
+        }
     },
     "Web": {
-
+        "lider": {
+            "nombre": "Luis Sáez",
+            "carrera": "Ingeniería Informática",
+            "imagen": "https://imgur.com/AK2WFoh.png"
+        },
+        "imagen": "",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "objetivos": [],
+        "horario": {
+            "dia": "?",
+            "horaInicio": "?",
+            "horaFin": "?"
+        }
     },
     "IOT": {
-
+        "lider": {
+            "nombre": "Cristopher Muñoz",
+            "carrera": "Ingeniería en Conectividad y Redes",
+            "imagen": "https://imgur.com/AK2WFoh.png"
+        },
+        "imagen": "",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "objetivos": [],
+        "horario": {
+            "dia": "Viernes",
+            "horaInicio": "13:00",
+            "horaFin": "14:30"
+        }
     },
     "IA": {
-
+        "lider": {
+            "nombre": "Matías Gonzáles",
+            "carrera": "Ingeniería Informática",
+            "imagen": "https://imgur.com/AK2WFoh.png"
+        },
+        "imagen": "",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "objetivos": [],
+        "horario": {
+            "dia": "Jueves",
+            "horaInicio": "15:11",
+            "horaFin": "16:40"
+        }
     },
     "Robotica": {
-
+        "lider": {
+            "nombre": "Victor Fuentemayor",
+            "carrera": "Ingeniería en Conectividad y Redes",
+            "imagen": "https://imgur.com/AK2WFoh.png"
+        },
+        "imagen": "",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "objetivos": [],
+        "horario": {
+            "dia": "Miércoles",
+            "horaInicio": "15:10",
+            "horaFin": "16:40"
+        }
     },
     "Juegos": {
-
+        "lider": {
+            "nombre": "Erwin Nuñez",
+            "carrera": "Ingeniería Informática",
+            "imagen": "https://imgur.com/AK2WFoh.png"
+        },
+        "imagen": "",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "objetivos": [],
+        "horario": {
+            "dia": "Lunes",
+            "horaInicio": "13:40",
+            "horaFin": "15:10"
+        }
+    },
+    "Ciberseguridad": {
+        "lider": {
+            "nombre": "Mabel Reyes",
+            "carrera": "Ingeniería Informática",
+            "imagen": "https://imgur.com/AK2WFoh.png"
+        },
+        "imagen": "",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "objetivos": [],
+        "horario": {
+            "dia": "?",
+            "horaInicio": "?",
+            "horaFin": "?"
+        }
     }
 }
