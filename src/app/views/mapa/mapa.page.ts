@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { IonicModule , NavController} from '@ionic/angular';
 
-
 @Component({
   selector: 'app-mapa',
   templateUrl: './mapa.page.html',
@@ -11,15 +10,12 @@ import { IonicModule , NavController} from '@ionic/angular';
   standalone: true,
   imports: [IonicModule, CommonModule, FormsModule]
 })
-export class MapaPage implements OnInit {
+export class MapaPage {
 
   constructor(private navCtrl: NavController) {}
 
   goBack() {
     this.navCtrl.back(); // Esta función navegará hacia atrás en el stack de navegación
-  }
-
-  ngOnInit() {
   }
 
 }

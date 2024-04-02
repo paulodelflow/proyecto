@@ -10,15 +10,11 @@ import { IonicModule, NavController } from '@ionic/angular';
   standalone: true,
   imports: [IonicModule, CommonModule, FormsModule]
 })
-export class InscripcionPage implements OnInit {
+export class InscripcionPage {
 
   constructor(private navCtrl: NavController) {}
 
   goBack() {
     this.navCtrl.back(); // Esta función navegará hacia atrás en el stack de navegación
   }
-
-  ngOnInit() {
-  }
-
 }
