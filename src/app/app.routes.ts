@@ -35,7 +35,7 @@ export const routes: Routes = [
     loadComponent: () => import('./views/evento/evento.page').then( m => m.EventoPage)
   },
   {
-    path: 'track',
+    path: 'track/:id',
     loadComponent: () => import('./views/track/track.page').then( m => m.TrackPage)
   },
 

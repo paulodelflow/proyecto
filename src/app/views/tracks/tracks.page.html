@@ -11,7 +11,7 @@
                             {{ data[trackId].descripcion }}
                         </p>
                     </section>
-                    <section class="w-full flex justify-end">
+                    <section [routerLink]="['/track', trackId]" class="w-full flex justify-end">
                         <span class="border-indigo-400 border-2 py-2 px-6 text-indigo-400 text-xl font-semibold">Saber más</span>
                     </section>
                 </div>
