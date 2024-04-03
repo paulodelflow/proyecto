@@ -31,13 +31,6 @@ export const routes: Routes = [
     loadComponent: () => import('./views/mapa/mapa.page').then( m => m.MapaPage)
   },
   {
-<<<<<<< Updated upstream
-    path: 'inscripcion',
-    loadComponent: () => import('./views//inscripcion/inscripcion.page').then( m => m.InscripcionPage)
-  },
-  {
-=======
->>>>>>> Stashed changes
     path: 'evento',
     loadComponent: () => import('./views/evento/evento.page').then( m => m.EventoPage)
   },

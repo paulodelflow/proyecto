@@ -1,2 +1,21 @@
 <ion-content [fullscreen]="true">
+    <main class="select-none py-4 px-8">
+        @for (trackId of keys; track trackId) {
+            <section class="flex rounded-md my-4 bg-stone-900">
+                <img class="rounded-md aspect-square w-72 h-72 object-cover" src="{{ data[trackId].lider.imagen }}" alt="{{ data[trackId].lider.nombre }}">
+                <div class="px-4 py-4 flex flex-col justify-between">
+                    <section>
+                        <h2 class="text-3xl font-semibold">{{ data[trackId].nombre }}</h2>
+                        <span class="text-stone-400 my-4 text-xl">{{ data[trackId].lider.nombre }}, {{ data[trackId].lider.carrera }}</span>
+                        <p class="text-lg text-stone-200">
+                            {{ data[trackId].descripcion }}
+                        </p>
+                    </section>
+                    <section class="w-full flex justify-end">
+                        <span class="border-indigo-400 border-2 py-2 px-6 text-indigo-400 text-xl font-semibold">Saber más</span>
+                    </section>
+                </div>
+            </section>
+        }
+    </main>
 </ion-content>

@@ -14,7 +14,7 @@ export class DataService {
   
   async getData() {
     if (!this.data) {
-      this.data = await firstValueFrom(this._http.get('https://gist.githubusercontent.com/Alwexis/126c8f8f90e29eae2d54f499f0d29f5e/raw/951fd5147a88cffdd632ec59faf6d9d058279e72/robotina_data.json'));
+      this.data = await firstValueFrom(this._http.get('https://gist.githubusercontent.com/Alwexis/126c8f8f90e29eae2d54f499f0d29f5e/raw/2afb2e82317bcc4393f57830d233cdd84d9c0cde/robotina_data.json'));
     }
     console.log(this.data)
     return this.data;

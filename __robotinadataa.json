@@ -5,6 +5,7 @@
             "carrera": "Ingenieria en Informática",
             "imagen": "https://imgur.com/Nsgf66J.png"
         },
+        "nombre": "Drones",
         "imagen": "",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         "objetivos": [],
@@ -20,6 +21,7 @@
             "carrera": "Ingenieria en Informática",
             "imagen": "https://imgur.com/119eFWr.png"
         },
+        "nombre": "Desarrollo de Aplicaciones Móviles",
         "imagen": "",
         "descripcion": "Las Aplicaciones Móviles son parte de nuestra vida diaria, por lo que en este taller aprenderás todo lo relacionado al desarrollo de aplicaciones móviles híbridas. Desde el UI y UX hasta la programación de la aplicación en sí, junto con la implementación de servicios en la nube o servidores locales.",
         "objetivos": [],
@@ -35,6 +37,7 @@
             "carrera": "Ingenieria en Informática",
             "imagen": "https://imgur.com/Yaquw2Z.png"
         },
+        "nombre": "Impresión 3D",
         "imagen": "",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         "objetivos": [],
@@ -50,6 +53,7 @@
             "carrera": "Informática en Biomédica",
             "imagen": "https://imgur.com/AK2WFoh.png"
         },
+        "nombre": "Realidad Virtual",
         "imagen": "",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         "objetivos": [],
@@ -65,6 +69,7 @@
             "carrera": "Ingeniería Informática",
             "imagen": "https://imgur.com/AK2WFoh.png"
         },
+        "nombre": "Desarrollo Web",
         "imagen": "",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         "objetivos": [],
@@ -80,6 +85,7 @@
             "carrera": "Ingeniería en Conectividad y Redes",
             "imagen": "https://imgur.com/AK2WFoh.png"
         },
+        "nombre": "Internet de las Cosas",
         "imagen": "",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         "objetivos": [],
@@ -95,6 +101,7 @@
             "carrera": "Ingeniería Informática",
             "imagen": "https://imgur.com/AK2WFoh.png"
         },
+        "nombre": "Inteligencia Artificial",
         "imagen": "",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         "objetivos": [],
@@ -110,6 +117,7 @@
             "carrera": "Ingeniería en Conectividad y Redes",
             "imagen": "https://imgur.com/AK2WFoh.png"
         },
+        "nombre": "Robótica",
         "imagen": "",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         "objetivos": [],
@@ -125,6 +133,7 @@
             "carrera": "Ingeniería Informática",
             "imagen": "https://imgur.com/AK2WFoh.png"
         },
+        "nombre": "Desarrollo de Videojuegos",
         "imagen": "",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         "objetivos": [],
@@ -140,6 +149,7 @@
             "carrera": "Ingeniería Informática",
             "imagen": "https://imgur.com/AK2WFoh.png"
         },
+        "nombre": "Ciberseguridad",
         "imagen": "",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         "objetivos": [],

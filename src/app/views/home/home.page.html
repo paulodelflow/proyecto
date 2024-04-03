@@ -6,9 +6,9 @@
   
       <div class="botones">
         <ul>
-          <li (click)="opcionSeleccionada">Talleres</li>
-          <li (click)="opcionSeleccionada('inscripcion')">Inscripcion</li>
-          <li (click)="opcionSeleccionada('mapa')">Mapa</li>
+          <li [routerLink]="['/tracks']">Talleres</li>
+          <li (click)="opcionSeleccionada">Inscripcion</li>
+          <li (click)="opcionSeleccionada">Mapa</li>
           <li (click)="opcionSeleccionada">Eventos</li>
           <li (click)="opcionSeleccionada">Proyectos</li>
         </ul>

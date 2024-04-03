@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
+import { DataService } from 'src/app/services/data.service';
 
 @Component({
   selector: 'app-tracks',
@@ -12,9 +13,14 @@ import { IonicModule } from '@ionic/angular';
 })
 export class TracksPage implements OnInit {
 
-  constructor() { }
+  data: any;
+  keys: string[] = [];
 
-  ngOnInit() {
+  constructor(private _data: DataService) { }
+
+  async ngOnInit() {
+    this.data = await this._data.getData();
+    this.keys = Object.keys(this.data);
   }
 
 }
