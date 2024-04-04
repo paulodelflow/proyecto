@@ -1,18 +1,21 @@
 <ion-content [fullscreen]="true">
-    <main class="select-none py-4 px-8">
+    <section [routerLink]="['/home']" class="absolute z-50 top-0 left-0 fill-stone-100 mx-4 my-2">
+        <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M7.82843 10.9999H20V12.9999H7.82843L13.1924 18.3638L11.7782 19.778L4 11.9999L11.7782 4.22168L13.1924 5.63589L7.82843 10.9999Z"></path></svg>
+    </section>
+    <main class="select-none py-6 px-8 my-4">
         @for (trackId of keys; track trackId) {
             <section class="flex rounded-md my-4 bg-stone-900">
-                <img class="rounded-md aspect-square w-72 h-72 object-cover" src="{{ data[trackId].lider.imagen }}" alt="{{ data[trackId].lider.nombre }}">
+                <img class="track-img rounded-md aspect-square w-72 h-72 object-cover" src="{{ data[trackId].lider.imagen }}" alt="{{ data[trackId].lider.nombre }}">
                 <div class="px-4 py-4 flex flex-col justify-between">
-                    <section>
+                    <section class="">
                         <h2 class="text-3xl font-semibold">{{ data[trackId].nombre }}</h2>
                         <span class="text-stone-400 my-4 text-xl">{{ data[trackId].lider.nombre }}, {{ data[trackId].lider.carrera }}</span>
-                        <p class="text-lg text-stone-200">
+                        <p class="text-lg text-stone-200 line-clamp-3">
                             {{ data[trackId].descripcion }}
                         </p>
                     </section>
                     <section [routerLink]="['/track', trackId]" class="w-full flex justify-end">
-                        <span class="border-indigo-400 border-2 py-2 px-6 text-indigo-400 text-xl font-semibold">Saber más</span>
+                        <span class="border-indigo-200 border-2 py-2 px-6 text-indigo-200 text-xl font-semibold rounded-md">Saber más</span>
                     </section>
                 </div>
             </section>

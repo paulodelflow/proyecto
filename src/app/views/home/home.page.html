@@ -1,18 +1,18 @@
 <ion-content [fullscreen]="true">
-    <div class="container">
-      <div class="image-container">
-        <img src="assets/CITT_CONCEPCION_LOGO_NO_BG.webp" alt="Imagen">
-      </div>
+  <main class="flex justify-center items-center w-full h-full">
+    <div class="flex">
+      <img class="mx-8 w-72 h-72" src="assets/CITT_CONCEPCION_LOGO_NO_BG.webp" alt="Imagen">
   
-      <div class="botones">
-        <ul>
-          <li [routerLink]="['/tracks']">Talleres</li>
-          <li (click)="opcionSeleccionada">Inscripcion</li>
-          <li (click)="opcionSeleccionada">Mapa</li>
-          <li (click)="opcionSeleccionada">Eventos</li>
-          <li (click)="opcionSeleccionada">Proyectos</li>
+      <div class="flex justify-center items-center h-full mx-8">
+        <ul class="list-none p0">
+          <li class="my-4 px-8 w-80 border-indigo-200 text-indigo-200 py-2 text-base text-center border rounded-lg" [routerLink]="['/tracks']">Talleres</li>
+          <li class="my-4 px-8 w-80 border-indigo-200 text-indigo-200 py-2 text-base text-center border rounded-lg" (click)="opcionSeleccionada">Inscripcion</li>
+          <li class="my-4 px-8 w-80 border-indigo-200 text-indigo-200 py-2 text-base text-center border rounded-lg" (click)="opcionSeleccionada">Mapa</li>
+          <li class="my-4 px-8 w-80 border-indigo-200 text-indigo-200 py-2 text-base text-center border rounded-lg" (click)="opcionSeleccionada">Eventos</li>
+          <li class="my-4 px-8 w-80 border-indigo-200 text-indigo-200 py-2 text-base text-center border rounded-lg" (click)="opcionSeleccionada">Proyectos</li>
         </ul>
       </div>
     </div>
+  </main>
 </ion-content>
   

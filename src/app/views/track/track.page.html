@@ -1,4 +1,7 @@
 <ion-content [fullscreen]="true">
+  <section [routerLink]="['/tracks']" class="absolute z-50 top-0 left-0 fill-stone-100 mx-4 my-2">
+    <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M7.82843 10.9999H20V12.9999H7.82843L13.1924 18.3638L11.7782 19.778L4 11.9999L11.7782 4.22168L13.1924 5.63589L7.82843 10.9999Z"></path></svg>
+  </section>
   @if (loaded) {
     <main class="flex flex-col items-center justify-center px-8 py-6">
       <section class="flex flex-col items-center w-full max-w-lg">
@@ -6,11 +9,19 @@
         <img class="my-4 rounded-full aspect-square w-64 h-64 object-cover" src="{{ data.lider.imagen }}" alt="{{ data.lider.nombre }}">
         <div>
           <h3 class="text-2xl font-semibold text-center">{{ data.lider.nombre }}</h3>
-          <h4 class="text-stone-400 text-xl text-center">{{ data.lider.carrera }}</h4>
+          <h4 class="text-stone-300 text-xl text-center">{{ data.lider.carrera }}</h4>
+          <h3 class="mt-4 mb-2 text-xl text-stone-200">
+            Todos los
+            <span class="text-indigo-200">{{ data.horario.dia }}</span>
+            de
+            <span class="text-indigo-200">{{ data.horario.horaInicio }}</span>
+            hasta
+            <span class="text-indigo-200">{{ data.horario.horaFin }}</span>
+          </h3>
         </div>
       </section>
       <div class="self-center w-1/4 bg-stone-600 h-[1px] my-6"></div>
-      <p class="text-stone-400 max-w-lg self-center">{{ data.descripcion }}</p>
+      <p class="text-stone-300 text-lg max-w-lg self-center">{{ data.descripcion }}</p>
       <div class="self-center w-1/4 bg-stone-600 h-[1px] my-6"></div>
       <section class="w-full max-w-lg">
         <h4 class="text-xl font-semibold">Objetivos del Track</h4>

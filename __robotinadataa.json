@@ -8,7 +8,27 @@
         "nombre": "Drones",
         "imagen": "",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        "objetivos": [],
+        "objetivos": [
+            "Objetivo número 1",
+            "Objetivo número 2",
+            "Objetivo número 3",
+            "Objetivo número 4",
+            "Objetivo número 5"
+        ],
+        "herramientas": [
+            {
+                "nombre": "Herramienta 1",
+                "imagen": "assets/desconocido.webp"
+            },
+            {
+                "nombre": "Herramienta 2",
+                "imagen": "assets/desconocido.webp"
+            },
+            {
+                "nombre": "Herramienta 3",
+                "imagen": "assets/desconocido.webp"
+            }
+        ],
         "horario": {
             "dia": "Miércoles",
             "horaInicio": "13:01",
@@ -24,7 +44,39 @@
         "nombre": "Desarrollo de Aplicaciones Móviles",
         "imagen": "",
         "descripcion": "Las Aplicaciones Móviles son parte de nuestra vida diaria, por lo que en este taller aprenderás todo lo relacionado al desarrollo de aplicaciones móviles híbridas. Desde el UI y UX hasta la programación de la aplicación en sí, junto con la implementación de servicios en la nube o servidores locales.",
-        "objetivos": [],
+        "objetivos": [
+            "Objetivo número 1",
+            "Objetivo número 2",
+            "Objetivo número 3",
+            "Objetivo número 4",
+            "Objetivo número 5"
+        ],
+        "herramientas": [
+            {
+                "nombre": "TypeScript",
+                "imagen": "assets/desconocido.webp"
+            },
+            {
+                "nombre": "CSS",
+                "imagen": "assets/desconocido.webp"
+            },
+            {
+                "nombre": "HTML",
+                "imagen": "assets/desconocido.webp"
+            },
+            {
+                "nombre": "Angular",
+                "imagen": "assets/desconocido.webp"
+            },
+            {
+                "nombre": "Ionic",
+                "imagen": "assets/desconocido.webp"
+            },
+            {
+                "nombre": "Android Studio",
+                "imagen": "assets/desconocido.webp"
+            }
+        ],
         "horario": {
             "dia": "Lunes",
             "horaInicio": "15:11",
@@ -40,7 +92,27 @@
         "nombre": "Impresión 3D",
         "imagen": "",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        "objetivos": [],
+        "objetivos": [
+            "Objetivo número 1",
+            "Objetivo número 2",
+            "Objetivo número 3",
+            "Objetivo número 4",
+            "Objetivo número 5"
+        ],
+        "herramientas": [
+            {
+                "nombre": "Herramienta 1",
+                "imagen": "assets/desconocido.webp"
+            },
+            {
+                "nombre": "Herramienta 2",
+                "imagen": "assets/desconocido.webp"
+            },
+            {
+                "nombre": "Herramienta 3",
+                "imagen": "assets/desconocido.webp"
+            }
+        ],
         "horario": {
             "dia": "Viernes",
             "horaInicio": "14:30",
@@ -56,7 +128,27 @@
         "nombre": "Realidad Virtual",
         "imagen": "",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        "objetivos": [],
+        "objetivos": [
+            "Objetivo número 1",
+            "Objetivo número 2",
+            "Objetivo número 3",
+            "Objetivo número 4",
+            "Objetivo número 5"
+        ],
+        "herramientas": [
+            {
+                "nombre": "Herramienta 1",
+                "imagen": "assets/desconocido.webp"
+            },
+            {
+                "nombre": "Herramienta 2",
+                "imagen": "assets/desconocido.webp"
+            },
+            {
+                "nombre": "Herramienta 3",
+                "imagen": "assets/desconocido.webp"
+            }
+        ],
         "horario": {
             "dia": "Martes",
             "horaInicio": "13:41",
@@ -72,7 +164,27 @@
         "nombre": "Desarrollo Web",
         "imagen": "",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        "objetivos": [],
+        "objetivos": [
+            "Objetivo número 1",
+            "Objetivo número 2",
+            "Objetivo número 3",
+            "Objetivo número 4",
+            "Objetivo número 5"
+        ],
+        "herramientas": [
+            {
+                "nombre": "Herramienta 1",
+                "imagen": "assets/desconocido.webp"
+            },
+            {
+                "nombre": "Herramienta 2",
+                "imagen": "assets/desconocido.webp"
+            },
+            {
+                "nombre": "Herramienta 3",
+                "imagen": "assets/desconocido.webp"
+            }
+        ],
         "horario": {
             "dia": "?",
             "horaInicio": "?",
@@ -88,7 +200,27 @@
         "nombre": "Internet de las Cosas",
         "imagen": "",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        "objetivos": [],
+        "objetivos": [
+            "Objetivo número 1",
+            "Objetivo número 2",
+            "Objetivo número 3",
+            "Objetivo número 4",
+            "Objetivo número 5"
+        ],
+        "herramientas": [
+            {
+                "nombre": "Herramienta 1",
+                "imagen": "assets/desconocido.webp"
+            },
+            {
+                "nombre": "Herramienta 2",
+                "imagen": "assets/desconocido.webp"
+            },
+            {
+                "nombre": "Herramienta 3",
+                "imagen": "assets/desconocido.webp"
+            }
+        ],
         "horario": {
             "dia": "Viernes",
             "horaInicio": "13:00",
@@ -104,7 +236,27 @@
         "nombre": "Inteligencia Artificial",
         "imagen": "",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        "objetivos": [],
+        "objetivos": [
+            "Objetivo número 1",
+            "Objetivo número 2",
+            "Objetivo número 3",
+            "Objetivo número 4",
+            "Objetivo número 5"
+        ],
+        "herramientas": [
+            {
+                "nombre": "Herramienta 1",
+                "imagen": "assets/desconocido.webp"
+            },
+            {
+                "nombre": "Herramienta 2",
+                "imagen": "assets/desconocido.webp"
+            },
+            {
+                "nombre": "Herramienta 3",
+                "imagen": "assets/desconocido.webp"
+            }
+        ],
         "horario": {
             "dia": "Jueves",
             "horaInicio": "15:11",
@@ -120,7 +272,27 @@
         "nombre": "Robótica",
         "imagen": "",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        "objetivos": [],
+        "objetivos": [
+            "Objetivo número 1",
+            "Objetivo número 2",
+            "Objetivo número 3",
+            "Objetivo número 4",
+            "Objetivo número 5"
+        ],
+        "herramientas": [
+            {
+                "nombre": "Herramienta 1",
+                "imagen": "assets/desconocido.webp"
+            },
+            {
+                "nombre": "Herramienta 2",
+                "imagen": "assets/desconocido.webp"
+            },
+            {
+                "nombre": "Herramienta 3",
+                "imagen": "assets/desconocido.webp"
+            }
+        ],
         "horario": {
             "dia": "Miércoles",
             "horaInicio": "15:10",
@@ -136,7 +308,27 @@
         "nombre": "Desarrollo de Videojuegos",
         "imagen": "",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        "objetivos": [],
+        "objetivos": [
+            "Objetivo número 1",
+            "Objetivo número 2",
+            "Objetivo número 3",
+            "Objetivo número 4",
+            "Objetivo número 5"
+        ],
+        "herramientas": [
+            {
+                "nombre": "Herramienta 1",
+                "imagen": "assets/desconocido.webp"
+            },
+            {
+                "nombre": "Herramienta 2",
+                "imagen": "assets/desconocido.webp"
+            },
+            {
+                "nombre": "Herramienta 3",
+                "imagen": "assets/desconocido.webp"
+            }
+        ],
         "horario": {
             "dia": "Lunes",
             "horaInicio": "13:40",
@@ -152,7 +344,27 @@
         "nombre": "Ciberseguridad",
         "imagen": "",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        "objetivos": [],
+        "objetivos": [
+            "Objetivo número 1",
+            "Objetivo número 2",
+            "Objetivo número 3",
+            "Objetivo número 4",
+            "Objetivo número 5"
+        ],
+        "herramientas": [
+            {
+                "nombre": "Herramienta 1",
+                "imagen": "assets/desconocido.webp"
+            },
+            {
+                "nombre": "Herramienta 2",
+                "imagen": "assets/desconocido.webp"
+            },
+            {
+                "nombre": "Herramienta 3",
+                "imagen": "assets/desconocido.webp"
+            }
+        ],
         "horario": {
             "dia": "?",
             "horaInicio": "?",
