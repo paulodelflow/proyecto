@@ -3,7 +3,7 @@
         "lider": {
             "nombre": "Paulo Escobar",
             "carrera": "Ingenieria en Informática",
-            "imagen": "https://imgur.com/Nsgf66J.png"
+            "imagen": "assets/lideres/Drones.webp"
         },
         "nombre": "Drones",
         "imagen": "",
@@ -15,20 +15,7 @@
             "Objetivo número 4",
             "Objetivo número 5"
         ],
-        "herramientas": [
-            {
-                "nombre": "Herramienta 1",
-                "imagen": "assets/desconocido.webp"
-            },
-            {
-                "nombre": "Herramienta 2",
-                "imagen": "assets/desconocido.webp"
-            },
-            {
-                "nombre": "Herramienta 3",
-                "imagen": "assets/desconocido.webp"
-            }
-        ],
+        "herramientas": [],
         "horario": {
             "dia": "Miércoles",
             "horaInicio": "13:01",
@@ -39,7 +26,7 @@
         "lider": {
             "nombre": "Ariel Silva",
             "carrera": "Ingenieria en Informática",
-            "imagen": "https://imgur.com/119eFWr.png"
+            "imagen": "assets/lideres/Movil.webp"
         },
         "nombre": "Desarrollo de Aplicaciones Móviles",
         "imagen": "",
@@ -54,27 +41,27 @@
         "herramientas": [
             {
                 "nombre": "TypeScript",
-                "imagen": "assets/desconocido.webp"
+                "imagen": "assets/icons/typescript.svg"
             },
             {
                 "nombre": "CSS",
-                "imagen": "assets/desconocido.webp"
+                "imagen": "assets/icons/css3.svg"
             },
             {
                 "nombre": "HTML",
-                "imagen": "assets/desconocido.webp"
+                "imagen": "assets/icons/html5.svg"
             },
             {
                 "nombre": "Angular",
-                "imagen": "assets/desconocido.webp"
+                "imagen": "assets/icons/angular.svg"
             },
             {
                 "nombre": "Ionic",
-                "imagen": "assets/desconocido.webp"
+                "imagen": "assets/icons/ionic.svg"
             },
             {
                 "nombre": "Android Studio",
-                "imagen": "assets/desconocido.webp"
+                "imagen": "assets/icons/androidstudio.svg"
             }
         ],
         "horario": {
@@ -87,7 +74,7 @@
         "lider": {
             "nombre": "Nicolas Fritz",
             "carrera": "Ingenieria en Informática",
-            "imagen": "https://imgur.com/Yaquw2Z.png"
+            "imagen": "assets/lideres/3D.webp"
         },
         "nombre": "Impresión 3D",
         "imagen": "",
@@ -99,20 +86,7 @@
             "Objetivo número 4",
             "Objetivo número 5"
         ],
-        "herramientas": [
-            {
-                "nombre": "Herramienta 1",
-                "imagen": "assets/desconocido.webp"
-            },
-            {
-                "nombre": "Herramienta 2",
-                "imagen": "assets/desconocido.webp"
-            },
-            {
-                "nombre": "Herramienta 3",
-                "imagen": "assets/desconocido.webp"
-            }
-        ],
+        "herramientas": [],
         "horario": {
             "dia": "Viernes",
             "horaInicio": "14:30",
@@ -123,7 +97,7 @@
         "lider": {
             "nombre": "Lucas Opazo",
             "carrera": "Informática en Biomédica",
-            "imagen": "https://imgur.com/AK2WFoh.png"
+            "imagen": "assets/lideres/VR.webp"
         },
         "nombre": "Realidad Virtual",
         "imagen": "",
@@ -135,20 +109,7 @@
             "Objetivo número 4",
             "Objetivo número 5"
         ],
-        "herramientas": [
-            {
-                "nombre": "Herramienta 1",
-                "imagen": "assets/desconocido.webp"
-            },
-            {
-                "nombre": "Herramienta 2",
-                "imagen": "assets/desconocido.webp"
-            },
-            {
-                "nombre": "Herramienta 3",
-                "imagen": "assets/desconocido.webp"
-            }
-        ],
+        "herramientas": [],
         "horario": {
             "dia": "Martes",
             "horaInicio": "13:41",
@@ -173,16 +134,28 @@
         ],
         "herramientas": [
             {
-                "nombre": "Herramienta 1",
-                "imagen": "assets/desconocido.webp"
+                "nombre": "HTML",
+                "imagen": "assets/icons/html5.svg"
             },
             {
-                "nombre": "Herramienta 2",
-                "imagen": "assets/desconocido.webp"
+                "nombre": "JavaScript",
+                "imagen": "assets/icons/javascript.svg"
             },
             {
-                "nombre": "Herramienta 3",
-                "imagen": "assets/desconocido.webp"
+                "nombre": "CSS",
+                "imagen": "assets/icons/css3.svg"
+            },
+            {
+                "nombre": "BootStrap",
+                "imagen": "assets/icons/bootstrap.svg"
+            },
+            {
+                "nombre": "Python",
+                "imagen": "assets/icons/python.svg"
+            },
+            {
+                "nombre": "Django",
+                "imagen": "assets/icons/django.svg"
             }
         ],
         "horario": {
@@ -209,16 +182,20 @@
         ],
         "herramientas": [
             {
-                "nombre": "Herramienta 1",
-                "imagen": "assets/desconocido.webp"
+                "nombre": "Arduino",
+                "imagen": "assets/icons/arduino.svg"
             },
             {
-                "nombre": "Herramienta 2",
-                "imagen": "assets/desconocido.webp"
+                "nombre": "C#",
+                "imagen": "assets/icons/csharp.svg"
             },
             {
-                "nombre": "Herramienta 3",
-                "imagen": "assets/desconocido.webp"
+                "nombre": "RaspberryPI",
+                "imagen": "assets/icons/raspberrypi.svg"
+            },
+            {
+                "nombre": "Python",
+                "imagen": "assets/icons/python.svg"
             }
         ],
         "horario": {
@@ -243,20 +220,7 @@
             "Objetivo número 4",
             "Objetivo número 5"
         ],
-        "herramientas": [
-            {
-                "nombre": "Herramienta 1",
-                "imagen": "assets/desconocido.webp"
-            },
-            {
-                "nombre": "Herramienta 2",
-                "imagen": "assets/desconocido.webp"
-            },
-            {
-                "nombre": "Herramienta 3",
-                "imagen": "assets/desconocido.webp"
-            }
-        ],
+        "herramientas": [],
         "horario": {
             "dia": "Jueves",
             "horaInicio": "15:11",
@@ -279,20 +243,7 @@
             "Objetivo número 4",
             "Objetivo número 5"
         ],
-        "herramientas": [
-            {
-                "nombre": "Herramienta 1",
-                "imagen": "assets/desconocido.webp"
-            },
-            {
-                "nombre": "Herramienta 2",
-                "imagen": "assets/desconocido.webp"
-            },
-            {
-                "nombre": "Herramienta 3",
-                "imagen": "assets/desconocido.webp"
-            }
-        ],
+        "herramientas": [],
         "horario": {
             "dia": "Miércoles",
             "horaInicio": "15:10",
@@ -317,16 +268,12 @@
         ],
         "herramientas": [
             {
-                "nombre": "Herramienta 1",
-                "imagen": "assets/desconocido.webp"
+                "nombre": "Unity",
+                "imagen": "assets/icons/unity.svg"
             },
             {
-                "nombre": "Herramienta 2",
-                "imagen": "assets/desconocido.webp"
-            },
-            {
-                "nombre": "Herramienta 3",
-                "imagen": "assets/desconocido.webp"
+                "nombre": "C#",
+                "imagen": "assets/icons/csharp.svg"
             }
         ],
         "horario": {
@@ -351,20 +298,7 @@
             "Objetivo número 4",
             "Objetivo número 5"
         ],
-        "herramientas": [
-            {
-                "nombre": "Herramienta 1",
-                "imagen": "assets/desconocido.webp"
-            },
-            {
-                "nombre": "Herramienta 2",
-                "imagen": "assets/desconocido.webp"
-            },
-            {
-                "nombre": "Herramienta 3",
-                "imagen": "assets/desconocido.webp"
-            }
-        ],
+        "herramientas": [],
         "horario": {
             "dia": "?",
             "horaInicio": "?",
