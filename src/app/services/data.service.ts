@@ -8,13 +8,13 @@ import { firstValueFrom } from 'rxjs';
 export class DataService {
 
   private _data: any;
+  private _dataURL = 'https://gist.githubusercontent.com/Alwexis/126c8f8f90e29eae2d54f499f0d29f5e/raw/843fbe7d2e26a9822d384b041fcfa154f0a73c19/robotina_data.json';
 
   constructor(private _http: HttpClient) {}
-
   
   async getData() {
     if (!this._data) {
-      this._data = await firstValueFrom(this._http.get('https://gist.githubusercontent.com/Alwexis/126c8f8f90e29eae2d54f499f0d29f5e/raw/79ca40c3287881738782f3fe219c50457c77afac/robotina_data.json'));
+      this._data = await firstValueFrom(this._http.get(this._dataURL));
     }
     return this._data;
   }

@@ -6,8 +6,8 @@
       <div class="flex justify-center items-center h-full mx-8">
         <ul class="list-none p0">
           <li class="my-4 px-8 w-80 border-indigo-200 text-indigo-200 py-2 text-base text-center border rounded-lg" [routerLink]="['/tracks']">Talleres</li>
-          <li class="my-4 px-8 w-80 border-indigo-200 text-indigo-200 py-2 text-base text-center border rounded-lg" (click)="opcionSeleccionada">Inscripcion</li>
-          <li class="my-4 px-8 w-80 border-indigo-200 text-indigo-200 py-2 text-base text-center border rounded-lg" (click)="opcionSeleccionada">Mapa</li>
+          <li class="my-4 px-8 w-80 border-indigo-200 text-indigo-200 py-2 text-base text-center border rounded-lg" [routerLink]="['/inscripcion']">Inscripcion</li>
+          <li class="my-4 px-8 w-80 border-indigo-200 text-indigo-200 py-2 text-base text-center border rounded-lg" [routerLink]="['/mapa']">Mapa</li>
           <li class="my-4 px-8 w-80 border-indigo-200 text-indigo-200 py-2 text-base text-center border rounded-lg" (click)="opcionSeleccionada">Eventos</li>
           <li class="my-4 px-8 w-80 border-indigo-200 text-indigo-200 py-2 text-base text-center border rounded-lg" (click)="opcionSeleccionada">Proyectos</li>
         </ul>

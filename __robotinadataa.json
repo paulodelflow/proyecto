@@ -8,13 +8,7 @@
         "nombre": "Drones",
         "imagen": "",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        "objetivos": [
-            "Objetivo número 1",
-            "Objetivo número 2",
-            "Objetivo número 3",
-            "Objetivo número 4",
-            "Objetivo número 5"
-        ],
+        "objetivos": [ ],
         "herramientas": [],
         "horario": {
             "dia": "Miércoles",
@@ -32,11 +26,11 @@
         "imagen": "",
         "descripcion": "Las Aplicaciones Móviles son parte de nuestra vida diaria, por lo que en este taller aprenderás todo lo relacionado al desarrollo de aplicaciones móviles híbridas. Desde el UI y UX hasta la programación de la aplicación en sí, junto con la implementación de servicios en la nube o servidores locales.",
         "objetivos": [
-            "Objetivo número 1",
-            "Objetivo número 2",
-            "Objetivo número 3",
-            "Objetivo número 4",
-            "Objetivo número 5"
+            "Aprender las Bases de la Programación Móvil.",
+            "Aprender la Arquitecura de una App Móvil y su Entorno.",
+            "Comprender la Comunicación entre App y Servicios Externos.",
+            "Entablar una Comunicación entre una App y otras Tecnologías, como IoT, Desktop, Web, etc.",
+            "Desarrollar un Proyecto relacionado a los conocimientos adquiridos."
         ],
         "herramientas": [
             {
@@ -62,6 +56,14 @@
             {
                 "nombre": "Android Studio",
                 "imagen": "assets/icons/androidstudio.svg"
+            },
+            {
+                "nombre": "Servidores",
+                "imagen": "assets/icons/server.svg"
+            },
+            {
+                "nombre": "Bases de Datos",
+                "imagen": "assets/icons/database.svg"
             }
         ],
         "horario": {
@@ -79,13 +81,7 @@
         "nombre": "Impresión 3D",
         "imagen": "",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        "objetivos": [
-            "Objetivo número 1",
-            "Objetivo número 2",
-            "Objetivo número 3",
-            "Objetivo número 4",
-            "Objetivo número 5"
-        ],
+        "objetivos": [ ],
         "herramientas": [],
         "horario": {
             "dia": "Viernes",
@@ -102,13 +98,7 @@
         "nombre": "Realidad Virtual",
         "imagen": "",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        "objetivos": [
-            "Objetivo número 1",
-            "Objetivo número 2",
-            "Objetivo número 3",
-            "Objetivo número 4",
-            "Objetivo número 5"
-        ],
+        "objetivos": [ ],
         "herramientas": [],
         "horario": {
             "dia": "Martes",
@@ -116,52 +106,37 @@
             "horaFin": "15:10"
         }
     },
-    "Web": {
+    "Robotica": {
         "lider": {
-            "nombre": "Luis Sáez",
-            "carrera": "Ingeniería Informática",
-            "imagen": "https://imgur.com/AK2WFoh.png"
+            "nombre": "Victor Fuentemayor",
+            "carrera": "Ingeniería en Conectividad y Redes",
+            "imagen": "assets/lideres/Robotica.webp"
         },
-        "nombre": "Desarrollo Web",
+        "nombre": "Robótica",
         "imagen": "",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "descripcion": "Dale vida a tus ideas y despierta tu creatividad en el taller de robótica! Aprende los conceptos básicos, construye robots simples y descubre cómo la robótica está transformando el futuro. No se requiere experiencia previa, solo curiosidad y ganas de aprender.",
         "objetivos": [
-            "Objetivo número 1",
-            "Objetivo número 2",
-            "Objetivo número 3",
-            "Objetivo número 4",
-            "Objetivo número 5"
+            "Aprender sobre Robótica",
+            "Construir y Programar Robots"
         ],
         "herramientas": [
             {
-                "nombre": "HTML",
-                "imagen": "assets/icons/html5.svg"
+                "nombre": "Legos",
+                "imagen": "assets/icons/lego.svg"
             },
             {
-                "nombre": "JavaScript",
-                "imagen": "assets/icons/javascript.svg"
+                "nombre": "Chips y Controladores",
+                "imagen": "assets/icons/chip.svg"
             },
             {
-                "nombre": "CSS",
-                "imagen": "assets/icons/css3.svg"
-            },
-            {
-                "nombre": "BootStrap",
-                "imagen": "assets/icons/bootstrap.svg"
-            },
-            {
-                "nombre": "Python",
-                "imagen": "assets/icons/python.svg"
-            },
-            {
-                "nombre": "Django",
-                "imagen": "assets/icons/django.svg"
+                "nombre": "Robots (Kondo)",
+                "imagen": "assets/icons/robot.svg"
             }
         ],
         "horario": {
-            "dia": "?",
-            "horaInicio": "?",
-            "horaFin": "?"
+            "dia": "Miércoles",
+            "horaInicio": "15:10",
+            "horaFin": "16:40"
         }
     },
     "IOT": {
@@ -170,16 +145,10 @@
             "carrera": "Ingeniería en Conectividad y Redes",
             "imagen": "https://imgur.com/AK2WFoh.png"
         },
-        "nombre": "Internet de las Cosas",
+        "nombre": "Internet de las Cosas (IoT)",
         "imagen": "",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        "objetivos": [
-            "Objetivo número 1",
-            "Objetivo número 2",
-            "Objetivo número 3",
-            "Objetivo número 4",
-            "Objetivo número 5"
-        ],
+        "objetivos": [ ],
         "herramientas": [
             {
                 "nombre": "Arduino",
@@ -208,46 +177,62 @@
         "lider": {
             "nombre": "Matías Gonzáles",
             "carrera": "Ingeniería Informática",
-            "imagen": "https://imgur.com/AK2WFoh.png"
+            "imagen": "assets/lideres/IA.webp"
         },
         "nombre": "Inteligencia Artificial",
         "imagen": "",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "descripcion": "Estaremos aprendiendo en base a mi experiencia laboral; las distintas aplicaciones y usos de la inteligencia artificial, reconocer sus tipos, su desarrollo y laboratorios prácticos en amazon web services con servicios de IA. El objetivo, es poder formarlos dentro de esta tecnología, capacitarlos y formar parte de un grupo de estudio y desarrollo enfocado. Además, poder participar de la competencia a nivel nacional de Duckietown, sistema de autos autónomos, en donde entrenaremos mediante programación, a autos fisicos para que puedan conducirse por si mismos.",
         "objetivos": [
-            "Objetivo número 1",
-            "Objetivo número 2",
-            "Objetivo número 3",
-            "Objetivo número 4",
-            "Objetivo número 5"
+            "Entender las aplicaciones y usos de la inteligencia artificial",
+            "Reconocer los tipos de inteligencia artificial",
+            "Comprender el desarrollo de la inteligencia artificial",
+            "Formación en tecnología de inteligencia artificial",
+            "Participación en la competencia nacional de Duckietown"
         ],
-        "herramientas": [],
+        "herramientas": [
+            {
+                "nombre": "Python",
+                "imagen": "assets/icons/python.svg"
+            },
+            {
+                "nombre": "AWS",
+                "imagen": "assets/icons/aws.svg"
+            }
+        ],
         "horario": {
             "dia": "Jueves",
             "horaInicio": "15:11",
             "horaFin": "16:40"
         }
     },
-    "Robotica": {
+    "Web": {
         "lider": {
-            "nombre": "Victor Fuentemayor",
-            "carrera": "Ingeniería en Conectividad y Redes",
+            "nombre": "Luis Sáez",
+            "carrera": "Ingeniería Informática",
             "imagen": "https://imgur.com/AK2WFoh.png"
         },
-        "nombre": "Robótica",
+        "nombre": "Desarrollo Web",
         "imagen": "",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        "objetivos": [
-            "Objetivo número 1",
-            "Objetivo número 2",
-            "Objetivo número 3",
-            "Objetivo número 4",
-            "Objetivo número 5"
+        "objetivos": [ ],
+        "herramientas": [
+            {
+                "nombre": "HTML",
+                "imagen": "assets/icons/html5.svg"
+            },
+            {
+                "nombre": "JavaScript",
+                "imagen": "assets/icons/javascript.svg"
+            },
+            {
+                "nombre": "CSS",
+                "imagen": "assets/icons/css3.svg"
+            }
         ],
-        "herramientas": [],
         "horario": {
-            "dia": "Miércoles",
-            "horaInicio": "15:10",
-            "horaFin": "16:40"
+            "dia": "?",
+            "horaInicio": "?",
+            "horaFin": "?"
         }
     },
     "Juegos": {
@@ -259,13 +244,7 @@
         "nombre": "Desarrollo de Videojuegos",
         "imagen": "",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        "objetivos": [
-            "Objetivo número 1",
-            "Objetivo número 2",
-            "Objetivo número 3",
-            "Objetivo número 4",
-            "Objetivo número 5"
-        ],
+        "objetivos": [ ],
         "herramientas": [
             {
                 "nombre": "Unity",
@@ -291,13 +270,7 @@
         "nombre": "Ciberseguridad",
         "imagen": "",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        "objetivos": [
-            "Objetivo número 1",
-            "Objetivo número 2",
-            "Objetivo número 3",
-            "Objetivo número 4",
-            "Objetivo número 5"
-        ],
+        "objetivos": [ ],
         "herramientas": [],
         "horario": {
             "dia": "?",

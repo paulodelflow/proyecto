@@ -1,4 +1,5 @@
 <ion-content [fullscreen]="true" class="flex justify-center items-center">
+  <!--
   <div class="container mx-auto">
     <h1 class="text-4xl font-bold text-center mt-20 mb-auto">Escanear QR</h1>
     <h2 class="text-4xl font-bold text-center mt-auto mb-9">Del mapa Interactivo</h2>
@@ -10,4 +11,35 @@
       </div>
     </div>
   </div>
+  -->
+  <section [routerLink]="['/']" class="absolute z-50 top-0 left-0 fill-stone-100 mx-4 my-2">
+    <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+      fill="currentColor"><path
+        d="M7.82843 10.9999H20V12.9999H7.82843L13.1924 18.3638L11.7782 19.778L4 11.9999L11.7782 4.22168L13.1924 5.63589L7.82843 10.9999Z"></path></svg>
+  </section>
+  <main class="flex flex-col items-center justify-center mt-12">
+    <section>
+      <h2 class="text-center text-2xl font-semibold">Mapa al CITT</h2>
+      <p class="text-lg text-stone-300">Con este pequeño mapa interactivo, podrás guiarte para llegar al CITT</p>
+    </section>
+    <iframe class="my-12 max-w-2xl w-full h-96" allowvr="yes" allow="xr-spatial-tracking;vr;gyroscope;accelerometer;fullscreen;" src="https://webobook.com/public/6364102e7a2b502c1131c7c2,en?"></iframe>
+    <section (click)="togglePopUp()" class="flex items-center rounded-md px-6 py-4 text-xl border-2 border-indigo-200 text-indigo-200">
+      <h4 class="mx-2">¿Prefieres escanearlo?</h4>
+      <ion-icon name="qr-code-outline"></ion-icon>
+    </section>
+  </main>
+
+  <!-- ? QR Container -->
+  <section id="popup" class="absolute top-0 z-50 hidden w-full h-full bg-black bg-opacity-75 flex-col items-center justify-center">
+    <section (click)="togglePopUp()" class="absolute top-0 left-0 fill-stone-100 mx-4 my-2">
+      <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+        fill="currentColor"><path
+          d="M7.82843 10.9999H20V12.9999H7.82843L13.1924 18.3638L11.7782 19.778L4 11.9999L11.7782 4.22168L13.1924 5.63589L7.82843 10.9999Z"></path></svg>
+    </section>
+    <div class="text-center">
+      <h2 class="text-2xl font-semibold">Escanea el Código QR</h2>
+      <p class="text-lg">Para obtener el enlace del Recorrido Virtual</p>
+    </div>
+    <img class="max-w-md my-6" src="assets/mapa_virtual_qr.svg" alt="Mapa Virtual">
+  </section>
 </ion-content>

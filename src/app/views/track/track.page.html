@@ -1,15 +1,21 @@
 <ion-content [fullscreen]="true">
-  <section [routerLink]="['/tracks']" class="absolute z-50 top-0 left-0 fill-stone-100 mx-4 my-2">
-    <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M7.82843 10.9999H20V12.9999H7.82843L13.1924 18.3638L11.7782 19.778L4 11.9999L11.7782 4.22168L13.1924 5.63589L7.82843 10.9999Z"></path></svg>
+  <section [routerLink]="['/tracks']"
+    class="absolute z-50 top-0 left-0 fill-stone-100 mx-4 my-2">
+    <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+      fill="currentColor"><path
+        d="M7.82843 10.9999H20V12.9999H7.82843L13.1924 18.3638L11.7782 19.778L4 11.9999L11.7782 4.22168L13.1924 5.63589L7.82843 10.9999Z"></path></svg>
   </section>
   @if (loaded) {
-    <main class="flex flex-col items-center justify-center px-8 py-6">
+    <main class="flex flex-col items-center justify-center px-8 py-6 select-none">
       <section class="flex flex-col items-center w-full max-w-lg">
         <h2 class="text-2xl">Track {{ data.nombre }}</h2>
-        <img class="my-4 rounded-full aspect-square w-64 h-64 object-cover" src="{{ data.lider.imagen }}" alt="{{ data.lider.nombre }}">
+        <img class="my-4 rounded-full aspect-square w-64 h-64 object-cover"
+          src="{{ data.lider.imagen }}" alt="{{ data.lider.nombre }}">
         <div>
-          <h3 class="text-2xl font-semibold text-center">{{ data.lider.nombre }}</h3>
-          <h4 class="text-stone-300 text-xl text-center">{{ data.lider.carrera }}</h4>
+          <h3 class="text-2xl font-semibold text-center">{{ data.lider.nombre
+            }}</h3>
+          <h4 class="text-stone-300 text-xl text-center">{{ data.lider.carrera
+            }}</h4>
           <h3 class="mt-4 mb-2 text-xl text-stone-200">
             Todos los
             <span class="text-indigo-200">{{ data.horario.dia }}</span>
@@ -19,13 +25,56 @@
             <span class="text-indigo-200">{{ data.horario.horaFin }}</span>
           </h3>
         </div>
+        <div [routerLink]="['/inscripcion']" class="text-center font-semibold text-lg rounded-md mt-2 py-2 px-6 w-48 border-2 border-indigo-200 text-indigo-200">
+          <span>Inscribirse</span>
+        </div>
       </section>
-      <div class="self-center w-1/4 bg-stone-600 h-[1px] my-6"></div>
+      <div class="self-center w-1/4 bg-stone-600 h-[2px] my-6"></div>
       <p class="text-stone-300 text-lg max-w-lg self-center">{{ data.descripcion }}</p>
-      <div class="self-center w-1/4 bg-stone-600 h-[1px] my-6"></div>
-      <section class="w-full max-w-lg">
-        <h4 class="text-xl font-semibold">Objetivos del Track</h4>
-      </section>
+      @if (data.objetivos.length > 0) {
+        <div class="self-center w-1/4 bg-stone-600 h-[2px] my-6"></div>
+        <section aria-expanded="true" class="group w-full max-w-lg">
+          <div (click)="expand($event)"
+            class="text-xl font-semibold w-full flex items-center justify-between">
+            <h4 class="border-b-2">Objetivos del Track</h4>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+          </div>
+          <div
+            class="group-aria-[expanded=false]:hidden group-aria-[expanded=true]:flex flex-col justify-start mt-2">
+            @for (objetivo of data.objetivos; track objetivo) {
+              <h4 class="my-2 text-lg">
+                <span class="text-indigo-200 font-semibold mr-2">{{ $index + 1
+                  }}.-</span>
+                <span>{{ objetivo }}</span>
+              </h4>
+            }
+          </div>
+        </section>
+      }
+      @if (data.herramientas.length > 0) {
+        <div class="self-center w-1/4 bg-stone-600 h-[2px] my-6"></div>
+        <section aria-expanded="true" class="group w-full max-w-lg">
+          <div (click)="expand($event)"
+            class="text-xl font-semibold w-full flex items-center justify-between">
+            <h4 class="border-b-2">Herramientas del Track</h4>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+          </div>
+          <div
+            class="group-aria-[expanded=false]:hidden mt-2">
+            <swiper-container [slidesPerView]="3">
+              @for (herramienta of data.herramientas; track herramienta) {
+                <swiper-slide>
+                  <section class="flex flex-col items-center">
+                    <img class="w-32 h-32 object-cover"
+                      src="{{ herramienta.imagen }}" alt="{{ herramienta.nombre }}">
+                    <h4 class="text-stone-200 text-lg font-semibold">{{ herramienta.nombre }}</h4>
+                  </section>
+                </swiper-slide>
+              }
+            </swiper-container>
+          </div>
+        </section>
+      }
     </main>
   } @else {
     <main class="flex flex-col items-center justify-center px-8 py-6">
@@ -38,7 +87,8 @@
         </div>
       </section>
       <div class="self-center w-1/4 bg-stone-600 h-[1px] my-6"></div>
-      <div class="w-full max-w-lg h-32 rounded-md animate-pulse bg-stone-900 self-center"></div>
+      <div
+        class="w-full max-w-lg h-32 rounded-md animate-pulse bg-stone-900 self-center"></div>
       <div class="self-center w-1/4 bg-stone-600 h-[1px] my-6"></div>
       <section class="w-full max-w-lg">
         <div class="h-4 w-40 rounded-md animate-pulse bg-stone-900"></div>
