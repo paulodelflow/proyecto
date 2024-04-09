@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'Proyecto',
+  appId: 'github.alwexis.robotina',
+  appName: 'Robotina',
   webDir: 'www',
   server: {
     androidScheme: 'https'

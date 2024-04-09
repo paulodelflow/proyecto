@@ -7,6 +7,7 @@ import { DataService } from 'src/app/services/data.service';
 import { addIcons } from 'ionicons';
 import { chevronForwardOutline, chevronDownOutline }  from 'ionicons/icons';
 import { SwiperContainer } from 'swiper/element';
+import { TextToSpeech } from '@capacitor-community/text-to-speech';
 
 @Component({
   selector: 'app-track',
@@ -45,5 +46,33 @@ export class TrackPage implements OnInit {
     parent.setAttribute('aria-expanded', parent.getAttribute('aria-expanded') == 'true' ? 'false' : 'true');
     let icon = parent.querySelector('ion-icon');
     icon.setAttribute('name', icon.getAttribute('name') == 'chevron-down-outline' ? 'chevron-forward-outline' : 'chevron-down-outline');
+  }
+
+  async readInfo() {
+    const config = { lang: 'es-ES', rate: 1.5, pitch: 2, volume: 1.0, category: 'ambient', voice: 1 }
+    let info = `Track ${this.data.nombre}.\nLíder del Track: ${this.data.lider.nombre} de la carrera de ${this.data.lider.carrera}.`;
+    await TextToSpeech.speak({
+      ...config,
+      text: info
+    });
+    info = this.data.descripcion;
+    await TextToSpeech.speak({
+      ...config,
+      text: info
+    });
+    info = `Los Objetivos del Track son: ${this.data.objetivos.join(', ')}.`;
+    await TextToSpeech.speak({
+      ...config,
+      text: info
+    });
+    let herramientas = '';
+    this.data.herramientas.forEach((i: any) => {  
+      herramientas += i.nombre + ', ';
+    });
+    info = `Las herramientas que se utilizarán en el Track son: ${herramientas}.`;
+    await TextToSpeech.speak({
+      ...config,
+      text: info
+    });
   }
 }
